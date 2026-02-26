@@ -48,7 +48,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Palindrome.executor": "Run",
     "Application.PalindromeApp.executor": "Run",
+    "Application.UseCase11PalindromeCheckerApp.executor": "Run",
     "Application.UseCase13PalindromeCheckerApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
