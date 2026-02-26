@@ -1,12 +1,10 @@
 import java.util.*;
 
-// 1. The Strategy Interface
 interface PalindromeStrategy {
     boolean isPalindrome(String input);
 }
 
-// 2. Concrete Strategy: Stack (LIFO)
-// Logic: Push all chars, then pop them to compare with the original (reverses string)
+
 class StackStrategy implements PalindromeStrategy {
     @Override
     public boolean isPalindrome(String input) {
@@ -26,8 +24,7 @@ class StackStrategy implements PalindromeStrategy {
     }
 }
 
-// 3. Concrete Strategy: Deque (Double-Ended Queue)
-// Logic: Add chars to deque, then compare and remove from both ends simultaneously
+
 class DequeStrategy implements PalindromeStrategy {
     @Override
     public boolean isPalindrome(String input) {
@@ -47,11 +44,10 @@ class DequeStrategy implements PalindromeStrategy {
     }
 }
 
-// 4. The Context (The App/Checker)
+
 class PalindromeChecker {
     private PalindromeStrategy strategy;
 
-    // Inject the strategy at runtime
     public void setStrategy(PalindromeStrategy strategy) {
         this.strategy = strategy;
     }
@@ -65,7 +61,6 @@ class PalindromeChecker {
     }
 }
 
-// 5. Main Execution
 public class PalindromeApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -74,7 +69,6 @@ public class PalindromeApp {
         System.out.print("Enter a string: ");
         String userInput = scanner.nextLine();
 
-        // Runtime selection of Strategy
         System.out.println("\n--- Testing with Stack Strategy ---");
         app.setStrategy(new StackStrategy());
         System.out.println("Result: " + app.check(userInput));

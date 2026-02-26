@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
-/**
- * UC11: Object-Oriented Palindrome Service
- * Ensure this file is saved as: UseCase11PalindromeCheckerApp.java
- */
+
 public class Palindrome {
 
     public static void main(String[] args) {
@@ -24,10 +21,7 @@ public class Palindrome {
     }
 }
 
-/**
- * Service class that contains palindrome logic.
- * This class is NOT public, so it can stay in the same file.
- */
+
 class Palindrome1 {
     public boolean checkPalindrome(String input) {
         if (input == null) return false;
