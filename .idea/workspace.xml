@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e710f55-b92e-4b18-8e5b-e0e3e2c9ec18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseCase10PalindromeCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseCase10PalindromeCheckerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseCase13PalindromeCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseCase13PalindromeCheckerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,26 +22,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ArjunRA2411026010211"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArjunRA2411026010211&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Harshil24Agrawal/STEP_PRACTICE.git",
-    "accountId": "c9237a51-c652-400c-a97b-34989de9b670"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Harshil24Agrawal/STEP_PRACTICE.git&quot;,
+    &quot;accountId&quot;: &quot;c9237a51-c652-400c-a97b-34989de9b670&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3ABnzuWx98TZO5IS4jfLJwdNYdE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,10 +56,14 @@
     "Application.UseCase10PalindromeCheckerApp.executor": "Run",
     "Application.UseCase11PalindromeCheckerApp.executor": "Run",
     "Application.UseCase13PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase1HotelBookingApp.executor": "Run",
     "Application.UseCase1PalindromeCheckerApp.executor": "Run",
     "Application.UseCase2PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase2RoomInitialization.executor": "Run",
+    "Application.UseCase3InventorySetup.executor": "Run",
     "Application.UseCase3PalindromeCheckerApp.executor": "Run",
     "Application.UseCase4PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase4RoomSearch.executor": "Run",
     "Application.UseCase5PalindromeCheckerApp.executor": "Run",
     "Application.UseCase6PalindromeCheckerApp.executor": "Run",
     "Application.UseCase7PalindromeCheckerApp.executor": "Run",
@@ -70,9 +73,16 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/STEP_PRACTICE",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -89,6 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772075097814</updated>
+      <workItem from="1773371182252" duration="13000" />
     </task>
     <servers />
   </component>
